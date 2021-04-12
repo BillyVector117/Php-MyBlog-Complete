@@ -1,0 +1,94 @@
+body {
+background: rgb(188,188,191);
+background: radial-gradient(circle, rgba(188,188,191,1) 0%, rgba(165,169,170,0.31416316526610644) 88%, rgba(192,213,217,1) 100%);
+
+
+}
+.thumb {
+  width: auto;
+  height: auto;
+  border: 10px double rgba(31, 215, 221, 0.993);
+  
+  overflow: hidden;
+}
+.title {
+  font-family: "Redressed", cursive;
+}
+.continue {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(5, 199, 63), rgb(1, 196, 196));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  transition: background-size 0.3s;
+}
+.continue:hover {
+  background-size: 100% 2px;
+}
+.extract {
+  font-family: "Rubik", sans-serif;
+}
+.date {
+  font-family: "DotGothic16", sans-serif;
+  font-size: medium;
+}
+.footerExtract {
+  overflow: auto;
+  width: max-content;
+}
+.textarea{
+  height: 200px;
+}
+/* --- pagination --- */
+
+.pagination {
+  margin-bottom: 30px;
+  margin-left: 25%;
+}
+
+.pagination ul {
+  list-style: none;
+  text-align: center;
+}
+
+.pagination ul li {
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+}
+
+.pagination ul li a {
+  display: block;
+  padding: 10px 20px;
+  background: #595959;
+  color: #fff;
+}
+
+.pagination ul li a:hover {
+  background: #bb1f35;
+  text-decoration: none;
+}
+
+.pagination ul .active {
+  background: #bb1f35;
+  padding: 10px 20px;
+}
+
+.pagination ul .disabled {
+  background: #a8a8a8;
+  padding: 10px 20px;
+  cursor: not-allowed;
+}
+
+.pagination ul .disabled:hover {
+  background: #a8a8a8;
+}
+.postContainer {
+  max-width: 700px;
+  height: auto;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+.chems {
+  max-width: 400px;
+}
